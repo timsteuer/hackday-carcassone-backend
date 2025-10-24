@@ -1,9 +1,11 @@
 [project]
 name = "hackday-carcassone-backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Backend API for Carcassonne tile-laying board game"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.120.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.0.0",
 ]
