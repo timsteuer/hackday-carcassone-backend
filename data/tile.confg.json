@@ -1,0 +1,239 @@
+{
+    "tiles": [
+        {
+            "id": "TILE_001_CHURCH_FIELD",
+            "name": "Church on Field",
+            "image": "tiles/tile_1.png",
+            "field_connections": ["T", "B", "L", "R"],
+            "city_connections": [],
+            "street_connections": [],
+            "count": 4
+        },
+        {
+            "id": "TILE_002_Church_Street",
+            "name": "Church with a Street",
+            "image": "tiles/tile_2.png",
+            "field_connections": ["T", "L", "R"],
+            "city_connections": [],
+            "street_connections": ["B"],
+            "count": 2
+        },
+        {
+            "id": "TILE_003_city_center",
+            "name": "City Center",
+            "image": "tiles/tile_3.png",
+            "field_connections": [],
+            "city_connections": ["T"," B", "L", "R"],
+            "street_connections": [],
+            "count": 1
+        },
+        {
+            "id": "TILE_004_city_bottom_field",
+            "name": "City Bottom Field",
+            "image": "tiles/tile_4.png",
+            "field_connections": ["B"],
+            "city_connections": ["T", "L", "R"],
+            "street_connections": [],
+            "count": 3
+        },
+        {
+            "id": "TILE_005_city_bottom_field_2",
+            "name": "City Bottom Field 2",
+            "image": "tiles/tile_5.png",
+            "field_connections": ["B"],
+            "city_connections":  ["T", "L", "R"],
+            "street_connections": [],
+            "count": 1
+        },
+        {
+            "id": "TILE_006_city_bottom_street",
+            "name": "City Bottom Street",
+            "image": "tiles/tile_6.png",
+            "field_connections": [],
+            "city_connections": ["T","L", "R"],
+            "street_connections": ["B"],
+            "count": 1
+        }, 
+        {
+            "id": "TILE_007_city_bottom_street_2",
+            "name": "City Bottom Street 2",
+            "image": "tiles/tile_7.png",
+            "field_connections": [],
+            "city_connections": ["T","L", "R"],
+            "street_connections": ["B"],
+            "count": 2
+        },
+        {
+            "id": "TILE_008_city_two_sides_two_sides_field",
+            "name": "City Two Sides / Two Sides Field",
+            "image": "tiles/tile_8.png",
+            "field_connections": ["B","R"],
+            "city_connections": ["T","L"],
+            "street_connections": [],
+            "count": 3
+        },
+        {
+            "id": "TILE_009_city_two_sides_two_sides_field_2",
+            "name": "City Two Sides / Two Sides Field 2",
+            "image": "tiles/tile_9.png",
+            "field_connections": ["B","R"],
+            "city_connections": ["T","L"],
+            "street_connections": [],
+            "count": 2
+        },
+        {
+            "id": "TILE_010_city_two_sides_two_sides_street",
+            "name": "City Two Sides / Two Sides Street",
+            "image": "tiles/tile_10.png",
+            "field_connections": [],
+            "city_connections": ["T","L"],
+            "street_connections": ["B","R"],
+            "count": 3
+        },
+        {
+            "id": "TILE_011_city_two_sides_two_sides_street_2",
+            "name": "City Two Sides / Two Sides Street 2",
+            "image": "tiles/tile_11.png",
+            "field_connections": [],
+            "city_connections": ["T","L"],
+            "street_connections": ["B","R"],
+            "count": 2
+        },
+        {
+            "id": "TILE_012_city_left_right_field_bottom_top",
+            "name": "City Left / Right, Field Bottom / Top",
+            "image": "tiles/tile_12.png",
+            "field_connections": ["B","T"],
+            "city_connections": ["L","R"],
+            "street_connections": [],
+            "count": 1
+        },
+        {
+            "id": "TILE_013_city_left_right_field_bottom_top_2",
+            "name": "City Left / Right, Field Bottom / Top 2",
+            "image": "tiles/tile_13.png",
+            "field_connections": ["B","T"],
+            "city_connections": ["L","R"],
+            "street_connections": [],
+            "count": 2
+        },
+        {
+            "id": "TILE_014_city_left_top_field_right_bottom",
+            "name": "City Left / Top, Field Right / Bottom",
+            "image": "tiles/tile_14.png",
+            "field_connections": ["R","B"],
+            "city_connections": ["L","T"],  
+            "street_connections": [],
+            "count": 2
+        },
+        {
+            "id": "TILE_015_city_top_bottom_field_right_left",
+            "name": "City Top / Bottom, Field Right / Left",
+            "image": "tiles/tile_15.png",
+            "field_connections": ["R","L"],
+            "city_connections": ["T","B"],  
+            "street_connections": [],
+            "count": 3
+        },
+        {
+            "id": "TILE_016_city_top_field_rest",
+            "name": "City Top / Field Rest",
+            "image": "tiles/tile_16.png",
+            "field_connections": ["L","R","B"],
+            "city_connections": ["T"],
+            "street_connections": [],
+            "count": 5
+        },
+        {
+            "id": "TILE_017_city_top_street_left_bottom_field_right",
+            "name": "City Top / Street Left / Bottom, Field Right",
+            "image": "tiles/tile_17.png",
+            "field_connections": ["R"],
+            "city_connections": ["T"],
+            "street_connections": ["B","L"],
+            "count": 3
+        },
+        {
+            "id": "TILE_018_city_top_street_right_bottom_field_left",
+            "name": "City Top / Street Right / Bottom, Field Left",
+            "image": "tiles/tile_18.png",
+            "field_connections": ["L"],
+            "city_connections": ["T"],
+            "street_connections": ["B","R"],
+            "count": 3
+        },
+        {
+            "id": "TILE_019_street_crossing_city_top",
+            "name": "Street Crossing, City Top",
+            "image": "tiles/tile_19.png",
+            "field_connections": [],
+            "city_connections": ["T"],
+            "street_connections": ["B","L","R"],
+            "count": 3
+        },
+        {
+            "id": "TILE_020_street_right_left_city_top_field_bottom",
+            "name": "Street Right / Left, City Top, Field Bottom",
+            "image": "tiles/tile_20.png",
+            "field_connections": ["B"],
+            "city_connections": ["T"],
+            "street_connections": ["L","R"],
+            "count": 3
+        },
+        {
+            "id": "TILE_021_street_top_down_field_left_right",
+            "name": "Street Top / Down, Field Left / Right",
+            "image": "tiles/tile_21.png",
+            "field_connections": ["L","R"],
+            "city_connections": [],
+            "street_connections": ["T","B"],
+            "count": 8
+        },
+        {
+            "id": "TILE_021_street_left_bottom_field_top_right",
+            "name": "Street Left / Bottom, Field Top / Right",
+            "image": "tiles/tile_21.png",
+            "field_connections": ["T","R"],
+            "city_connections": [],
+            "street_connections": ["L","B"],
+            "count": 9
+        },
+        {
+            "id": "TILE_023_crossing_field_top",
+            "name": "Crossing Field Top",
+            "image": "tiles/tile_23.png",
+            "field_connections": ["T"],
+            "city_connections": [],
+            "street_connections": ["R","B", "L"],
+            "count": 4
+        },
+        {
+            "id": "TILE_024_crossing_full",
+            "name": "Crossing Full",
+            "image": "tiles/tile_24.png",
+            "field_connections": [],
+            "city_connections": [],
+            "street_connections": ["T","R","B", "L"],
+            "count": 1
+        },
+        {
+            "id": "TILE_025_start",
+            "name": "Start Tile",
+            "image": "tiles/tile_25.png",
+            "field_connections": ["B"],
+            "city_connections": ["T"],
+            "street_connections": ["L","R"],
+            "count": 1
+        }
+
+
+
+        
+
+
+
+
+
+
+    ]
+}
